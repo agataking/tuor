@@ -366,13 +366,13 @@ template {
   padding: 40px 0 40px;
 }
 
+.navbar-top__menu-button {
+  display: none;
+}
+
 .navbar__searhc {
   margin-right: auto;
   margin-left: 180px;
-}
-
-.navbar__menu-button {
-  display: none;
 }
 
 .navbar-menu {
@@ -471,7 +471,6 @@ template {
   }
   .navbar__searhc {
     margin-left: auto;
-    max-width: 340px;
   }
   .navbar-menu {
     padding: 22px 0 22px;
@@ -479,6 +478,9 @@ template {
   .navbar-menu__link {
     font-size: 12px;
     line-height: 15px;
+  }
+  .searhc__input {
+    width: 340px;
   }
 }
 
@@ -497,6 +499,7 @@ template {
     display: flex;
     width: 16px;
     height: 11px;
+    padding: 0;
     align-items: center;
     justify-content: space-between;
     flex-direction: column;
